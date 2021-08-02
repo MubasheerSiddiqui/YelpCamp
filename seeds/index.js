@@ -31,6 +31,16 @@ const seedDB = async () => {
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolores vero perferendis laudantium, consequuntur voluptatibus nulla architecto, sit soluta esse iure sed labore ipsam a cum nihil atque molestiae deserunt!",
       price,
+      images: [
+        {
+          url: "https://res.cloudinary.com/dgshhqwmw/image/upload/v1627903605/YelpCamp/lrbkf71trfmdtogjxi5o.png",
+          filename: "YelpCamp/lrbkf71trfmdtogjxi5o",
+        },
+        {
+          url: "https://res.cloudinary.com/dgshhqwmw/image/upload/v1627903602/YelpCamp/kycphfkni1tn8uhdmqtl.jpg",
+          filename: "YelpCamp/kycphfkni1tn8uhdmqtl",
+        },
+      ],
     });
     await camp.save();
   }
