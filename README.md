@@ -1,5 +1,5 @@
 # YelpCamp
-live at : https://yelpcamp-mubasheer.herokuapp.com/
+live at : https://cute-rose-betta-robe.cyclic.app/
 
 This project was created using Node.js, Express, MongoDB, and Bootstrap. Passport.js was used to handle authentication.
 
